@@ -1,0 +1,31 @@
+:root{
+    --colorportafolio:black;
+    --colormenu:grey;
+    --colorletter:white;
+    --colorh:yellow;
+}
+
+.hello::after{
+    content: "'HELLO'";
+    color: var(--colorh);
+    text-decoration-line: line-through;
+    background-color: black;
+}
+ .hello{
+
+margin-top: 100px;
+}
+.hellow{
+    margin-top: 100px;
+}
+p{
+    padding-right: 25px;
+    text-align: justify;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+.who{}
+/*.who, .hello{
+    margin-top: 80px;
+    }
